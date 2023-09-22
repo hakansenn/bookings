@@ -11,6 +11,8 @@ import (
 	"github.com/hakansenn/bookings/pkg/models"
 )
 
+var functions = template.FuncMap{}
+
 var app *config.AppConfig
 
 // NewTemplates sets the config for template package
